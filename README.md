@@ -1,2 +1,2 @@
 # kysorin
-Anime media player and scrapper from various sources and torrents. 
+Anime media player and scrapper from various sources and torrents.
