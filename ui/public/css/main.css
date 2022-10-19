@@ -1,0 +1,73 @@
+html {
+    background-image: url('../images/stars.gif');
+}
+
+body {
+    background-color: #242323;
+    font-family: "Lucida Console", "Courier New", monospace;
+    
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.mainHeader {
+    margin-top: 1vh;
+    padding-top: 1vh; 
+    text-align: center;
+}
+
+#searchBar {
+    width: 30vw;
+    display: inline-block;
+}
+
+.searchBarContainer {
+    margin-top: 2vh; 
+    text-align: center;
+    display: block;
+}
+
+.form-control:focus {
+    border-color: #ffffff;
+    box-shadow: 0 0 0 0.2rem rgb(250, 250, 250, 0.4);
+} 
+
+#loadingField { 
+    margin-top: 1vh;
+    color: #ffffff;
+    text-align: center;
+}
+
+.hidden {
+    display: none;
+}
+
+.resultsTable {
+    margin-top: 1vh;
+    margin: auto;
+}
+
+#episodes {
+    margin-top: 1vh;
+    padding-top: 1vh; 
+    text-align: center;
+}
+
+.box {
+    display: flex;
+    flex-wrap: wrap;
+    flex:1;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+#player {
+    display:block;
+    margin: auto;
+    width: 50vw;
+    height: 60vh;
+    padding-bottom: 5%;
+
+}
